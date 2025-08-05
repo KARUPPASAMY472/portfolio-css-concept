@@ -52,3 +52,19 @@
     padding: 13px;
 
 }
+.ex_3
+{
+    padding: 10px;
+}
+@media screen and (max-width : 600px) {
+    .ex_3
+    {
+        width: 400px;
+    }
+
+    .ex_3 div
+    {
+        padding: 10px;
+        font-size: 18px;
+    }
+}
